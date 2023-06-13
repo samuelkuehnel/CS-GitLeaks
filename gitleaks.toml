@@ -25,6 +25,15 @@ paths = [
 ]
 
 [[rules]]
+description = "Custom WP rule"
+id = "Wordpress-DB-Password"
+regex = '''define\( 'DB_PASSWORD', '[^']*' \);'''
+secretGroup = 1
+keywords = [
+    "Wordpress"
+]
+
+[[rules]]
 description = "Adafruit API Key"
 id = "adafruit-api-key"
 regex = '''(?i)(?:adafruit)(?:[0-9a-z\-_\t .]{0,20})(?:[\s|']|[\s|"]){0,3}(?:=|>|:=|\|\|:|<=|=>|:)(?:'|\"|\s|=|\x60){0,5}([a-z0-9_-]{32})(?:['|\"|\n|\r|\s|\x60|;]|$)'''
