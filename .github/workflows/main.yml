@@ -7,7 +7,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          fetch-depth: 0
+          sparse-checkout: |
+            .github
+            src
       - uses: gitleaks/gitleaks-action@v2 
         env: 
           GITLEAKS_CONFIG: ./gitleaks.toml
