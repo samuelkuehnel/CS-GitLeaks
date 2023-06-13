@@ -28,7 +28,7 @@ paths = [
 description = "Custom WP rule"
 id = "Wordpress-DB-Password"
 regex = '''define\( 'DB_PASSWORD', '[^']*' \);'''
-secretGroup = 1
+secretGroup = 0
 keywords = [
     "Wordpress"
 ]
