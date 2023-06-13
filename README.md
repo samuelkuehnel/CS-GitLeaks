@@ -1,2 +1,2 @@
 # CS-GitLeaks
-### This is a secret repository
+### This is a secure repository
