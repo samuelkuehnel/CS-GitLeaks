@@ -30,7 +30,7 @@ id = "Wordpress-DB-Password"
 regex = '''define\( 'DB_PASSWORD', '[^']*' \);'''
 secretGroup = 0
 keywords = [
-    "Wordpress"
+    "PASSWORD"
 ]
 
 [[rules]]
